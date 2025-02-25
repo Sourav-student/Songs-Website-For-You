@@ -3,7 +3,7 @@ import React from 'react'
 
 const video_songs = () => {
   return (
-    <div className='ml-[150px] flex align-middle justify-around flex-wrap m-3'>
+    <div className='w-auto ml-[140px] max-md:ml-3 flex align-middle justify-around flex-wrap m-3'>
       <iframe width="400" height="300" src="https://www.youtube.com/embed/r6SbfF9FjTg?si=KtDn5tjnm6LACNdW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <iframe width="400" height="300" src="https://www.youtube.com/embed/Wj8C_bpnkTY?si=f_9FAFURqWgEf137" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
       <iframe width="400" height="300" src="https://www.youtube.com/embed/z-diRlyLGzo?si=cQy-y-rGSHX967I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

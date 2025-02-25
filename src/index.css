@@ -2,14 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-    --white : white;
-    --black: rgb(68, 68, 68);
-}
-
 body{
-    background-color: rgb(39, 34, 34);
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgb(207, 207, 207), rgb(255, 231, 231));
 }
 
 iframe{

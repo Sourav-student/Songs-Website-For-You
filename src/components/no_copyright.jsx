@@ -2,13 +2,13 @@ import React from 'react'
 import { useEffect } from 'react'
 import songs from '../assets/songs.js'
 
-function Home() {
-
+function no_copyright() {
+ 
   useEffect(() => {
     const audioContainer = document.querySelector('.audio');
 
     for (let i = 0; i < songs.length; i++) {
-      for (let j = 0; j < 4; j++) {
+      for (let j = 0; j < songs[i].length; j++) {
 
         const container = document.createElement('div');
         container.className = 'p-2 gap-3 rounded-xl flex flex-col shadow-md m-2 bg-[#FFFFFF] shadow-[#0000001A]';
@@ -32,4 +32,4 @@ function Home() {
   )
 }
 
-export default Home
+export default no_copyright
