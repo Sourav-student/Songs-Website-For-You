@@ -42,6 +42,12 @@ const songs = [
       image: './image/tum_se.png',
       Singer: ' Raghav Chaitanya, Sachin–Jigar, and Varun Jain'
     },
+    {
+      song: ' ./songs/cs/Aaj_Ki_Raat.mp3',
+      title: 'Aaj Ki Raat',
+      image: './image/aaj_raat.png',
+      Singer: ' Madhubanti Bagchi, Divya Kumar, Amitabh Bhattacharya'
+    },
   ],
 
   [
@@ -75,12 +81,6 @@ const songs = [
       title: 'Shayad (Reprise)',
       image: './image/shayad.png',
       Singer: 'Arijit Singh, Madhubanti Bagchi, and Pritam Chakraborty'
-    },
-    {
-      song: ' ./songs/ncs/Bole_Chudiyan.mp3',
-      title: 'Bole Chudiyan',
-      image: './image/Chudiya.png',
-      Singer: 'Amit Kumar'
     },
     {
       song: ' ./songs/ncs/Bole_Chudiyan.mp3',
@@ -124,9 +124,45 @@ const songs = [
       image: './image/mila.png',
       Singer: 'KK'
     },
+    {
+      song: ' ./songs/bncs/Ishq_Mein.mp3',
+      title: 'Ishq Mein',
+      image: './image/ishq.png',
+      Singer: '	Sachin-Jigar, Sachet Tandon, Asees Kaur, Amitabh Bhattacharya'
+    },
   ],
 
   [
+    {
+      song: ' ./songs/ancs/Ik_Vaari_Aa.mp3',
+      title: 'Ik Vaari Aa',
+      image: './image/ek_bari.png',
+      Singer: 'Jubin Nautiyal'
+    },
+    {
+      song: ' ./songs/ancs/Raataan_Lambiya.mp3',
+      title: 'Raataan Lambiyan',
+      image: './image/shersaah.png',
+      Singer: 'Jubin Nautiyal'
+    },
+    {
+      song: ' ./songs/ancs/Khairiyat.mp3',
+      title: 'Khairiyat',
+      image: './image/many_moods.png',
+      Singer: 'Arijit Singh'
+    },
+    {
+      song: ' ./songs/ancs/Galti_Se_Mistake.mp3',
+      title: 'Galti Se Mistake',
+      image: './image/image.png',
+      Singer: '	Pritam, Arijit Singh, Amit Mishra'
+    },
+    {
+      song: ' ./songs/ancs/Jhoome_Jo_Pathaan.mp3',
+      title: 'Jhoome Jo Pathaan',
+      image: './image/image2.png',
+      Singer: '	Pritam, Arijit Singh, Amit Mishra'
+    },
     {
 
       song: './songs/ancs/Arsaa.mp3',
