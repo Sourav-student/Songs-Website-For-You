@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rollup/pluginutils": "^5.1.4",
     "express": "^4.21.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -28,6 +29,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^15.12.0",
     "postcss": "^8.4.49",
+    "rollup": "^4.x.x",
     "tailwindcss": "^3.4.17",
     "vite": "^6.0.1"
   },
