@@ -7,6 +7,30 @@ const songs = [
       Singer: ' Arijit Singh'
     },
     {
+      song: './songs/cs/Ajab_Si.mp3',
+      title: 'Aankhon Mein Teri Ajab Si',
+      image: './image/Akhho_me.png',
+      Singer: 'KK'
+    },
+    {
+      song: './songs/cs/Jag_Soona_Soona_Lage.mp3',
+      title: 'Jag Soona Soona Lage',
+      image: './image/Akhho_me.png',
+      Singer: 'Rahat Fateh Ali Khan, Richa Sharma'
+    },
+    {
+      song: './songs/cs/Jai_Jai_Shivshankar.mp3',
+      title: 'Jag Soona Soona Lage',
+      image: './image/War.png',
+      Singer: 'Vishal Dadlani & Benny Dayal'
+    },
+    {
+      song: './songs/cs/Chand_Sifarish.mp3',
+      title: 'Chand Sifarish',
+      image: './image/Chand.png',
+      Singer: 'Shaan, Kailash Kher, Jatin-Lalit, Prasoon Joshi'
+    },
+    {
       song: ' ./songs/cs/Oh_Maahi.mp3',
       title: 'Oh Maahi',
       image: './image/maahi.png',
@@ -43,20 +67,31 @@ const songs = [
       Singer: ' Raghav Chaitanya, Sachin–Jigar, and Varun Jain'
     },
     {
-      song: ' ./songs/cs/Aaj_Ki_Raat.mp3',
-      title: 'Aaj Ki Raat',
-      image: './image/aaj_raat.png',
-      Singer: ' Madhubanti Bagchi, Divya Kumar, Amitabh Bhattacharya'
+      song: './songs/cs/Humko_Tumse_Pyaar_Hai.mp3',
+      title: 'Humko Tumse Pyaar Hai',
+      image: './image/humko.png',
+      Singer: ' Anand Raj Anand'
     },
   ],
 
   [
     {
-
       song: './songs/ncs/Ae_Dil_Hai_Mushkil.mp3',
       title: 'Ae Dil Hai Mushkil',
       image: './image/muskil.png',
       Singer: 'Arijit Singh and Pritam Chakraborty'
+    },
+    {
+      song: './songs/ncs/Main_Agar_Kahoon.mp3',
+      title: ' Main Agar Kahoon',
+      image: './image/om_santi.png',
+      Singer: 'Vishal-Shekhar'
+    },
+    {
+      song: './songs/ncs/Dastaan.mp3',
+      title: 'Dastaan-E-Om Shanti Om',
+      image: './image/om_santi.png',
+      Singer: 'Vishal-Shekhar'
     },
     {
       song: ' ./songs/ncs/Gerua_Dilwale.mp3',
@@ -123,6 +158,12 @@ const songs = [
       title: 'Tu Jo Mila',
       image: './image/mila.png',
       Singer: 'KK'
+    },
+    {
+      song: ' ./songs/bncs/Aankhein_Khuli_From_Mohabbatein.mp3',
+      title: 'Tu Jo Mila',
+      image: './image/Akha_kuli.png',
+      Singer: 'jatin-Lalit'
     },
     {
       song: ' ./songs/bncs/Ishq_Mein.mp3',
