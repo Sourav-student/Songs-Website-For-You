@@ -20,7 +20,7 @@ const songs = [
     },
     {
       song: './songs/cs/Jai_Jai_Shivshankar.mp3',
-      title: 'Jag Soona Soona Lage',
+      title: 'Jai Jai Shivshankar',
       image: './image/War.png',
       Singer: 'Vishal Dadlani & Benny Dayal'
     },

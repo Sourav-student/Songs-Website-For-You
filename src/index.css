@@ -2,18 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-image: linear-gradient(90deg, rgb(207, 207, 207), rgb(255, 231, 231));
+body {
+    background-image: linear-gradient(rgb(183, 183, 183), transparent);
 }
 
-iframe{
-    border: 2px solid yellow;
-    border-radius: 30px;
-    margin: 10px;
+.animation-scale {
+    animation: animationSacle 1.5s ease-in-out;
 }
 
-@media (max-width: 350px){
-audio{
-    width: 200px !important;
+.text-animation {
+    animation: textAnimation 1.5s ease-in-out;
 }
+
+.animate-div{
+    animation: animateDiv 1s ease-in-out;
+}
+
+@keyframes animationSacle {
+    0% {
+        transform: scale(10);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    99%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes animateDiv {
+    0% {
+       opacity: 0;
+    }
+
+    100% {
+       opacity: 1;
+    }
+}
+
+@media (max-width: 350px) {
+    audio {
+        width: 200px !important;
+    }
 }
