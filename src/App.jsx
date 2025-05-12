@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Header from './components/Header';
+import Header from './components/header';
 import Navbar from './components/Navbar';
 import Router from './Routers/Router';
 import Icon from './assets/website.png'
