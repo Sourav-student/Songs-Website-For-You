@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import bollywood from '../assets/bollywood.svg'
+import bollywood from '../assets/Bollywood.svg'
 import home from '../assets/home.svg'
 import youtube from '../assets/youtube.svg'
 
