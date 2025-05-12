@@ -2,8 +2,6 @@
 
 **MusicScape** is a stylish and responsive music streaming web application that lets users enjoy a curated collection of Bollywood and YouTuber songs. Built with **React.js** and **Tailwind CSS**, it provides a smooth and clean UI with native HTML5 audio playback.
 
-![MusicScape Screenshot](https://musicscape.vercel.app/screenshot.png) <!-- Optional: Replace with an actual screenshot URL -->
-
 ## 🚀 Live Demo
 
 👉 [Visit MusicScape](https://musicscape.vercel.app/)
