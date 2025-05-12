@@ -1,7 +1,7 @@
 import logo from '../assets/logo.png'
 import home from '../assets/home.svg'
 import youtube from '../assets/youtube.svg'
-import bollywood from '../assets/bollywood.svg'
+import bollywood from '../assets/Bollywood.svg'
 import hamebarger from '../assets/hamburger.svg'
 import { NavLink } from 'react-router-dom'
 
